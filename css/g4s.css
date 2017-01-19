@@ -17,7 +17,7 @@ body {
 .heroes-hero-container {
 	/* color of container */
 	background-color: white;
-	background-color: hsla(0, 0%, 0%, 0.7);
+	background-color: hsla(0, 0%, 0%, 0.2);
 	/* center the container in the body */
 	width: 1667px;  /* (205 px) * (8 heroes per row) = 1640 + 37 px for padding */
 	height: 1725px; /* (115 px) * (15 rows) =  1725 px */
