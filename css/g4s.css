@@ -1,0 +1,38 @@
+/* COLORS 
+ * top bar background - #420303
+ */
+
+body {
+	background-color: #000000;
+	background-image: url("../img/background.jpg");
+	padding: 0px;
+	margin: 0px;
+}
+
+.filler-one {
+	width: 100%;
+	height: 30px;
+}
+
+.heroes-hero-container {
+	/* color of container */
+	background-color: white;
+	background-color: hsla(0, 0%, 0%, 0.7);
+	/* center the container in the body */
+	width: 1667px;  /* (205 px) * (8 heroes per row) = 1640 + 37 px for padding */
+	height: 1725px; /* (115 px) * (15 rows) =  1725 px */
+	right: 0;
+	left: 0;
+	margin-right: auto;
+	margin-left: auto;
+	/* container border
+	border-color: #420303;
+	border-width: 3px;
+	border-style: groove;*/
+}
+
+.topbar {
+	background-color: #420303;
+	height: 30px;
+	width: 100%;
+}
