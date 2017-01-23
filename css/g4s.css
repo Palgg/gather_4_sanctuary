@@ -14,21 +14,26 @@ body {
 	height: 30px;
 }
 
+.floated_image {
+	float: left;
+}
+
 .heroes-hero-container {
 	/* color of container */
 	background-color: white;
 	background-color: hsla(0, 0%, 0%, 0.2);
 	/* center the container in the body */
-	width: 1667px;  /* (205 px) * (8 heroes per row) = 1640 + 37 px for padding */
+	width: 1640px;  /* (205 px) * (8 heroes per row) = 1640 + 37 px for padding */
 	height: 1725px; /* (115 px) * (15 rows) =  1725 px */
 	right: 0;
 	left: 0;
 	margin-right: auto;
 	margin-left: auto;
-	/* container border
+
 	border-color: #420303;
 	border-width: 3px;
-	border-style: groove;*/
+	border-style: groove;
+	/* container border*/
 }
 
 .topbar {
