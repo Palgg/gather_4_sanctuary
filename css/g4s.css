@@ -29,11 +29,11 @@ body {
 	left: 0;
 	margin-right: auto;
 	margin-left: auto;
-
+	/* container border
 	border-color: #420303;
 	border-width: 3px;
 	border-style: groove;
-	/* container border*/
+	*/
 }
 
 .topbar {
