@@ -2,6 +2,7 @@
  * top bar background - #420303
  */
 
+/* GENERAL all purpose styling */
 body {
 	background-color: #000000;
 	background-image: url("../img/background.jpg");
@@ -14,6 +15,14 @@ body {
 	height: 30px;
 }
 
+.topbar {
+	background-color: #420303;
+	height: 30px;
+	width: 100%;
+}
+
+
+/* HEROES PAGE styling */
 .floated_image {
 	float: left;
 }
@@ -21,7 +30,7 @@ body {
 .heroes-hero-container {
 	/* color of container */
 	background-color: white;
-	background-color: hsla(0, 0%, 0%, 1.0);
+	background-color: hsla(0, 0%, 0%, 0.2);
 	/* center the container in the body */
 	width: 1640px;  /* (205 px) * (8 heroes per row) = 1640 + 37 px for padding */
 	height: 1783px; /* (115 px) * (15 rows) =  1725 px +  58 px for padding*/
@@ -34,10 +43,4 @@ body {
 	border-width: 3px;
 	border-style: groove;
 	*/
-}
-
-.topbar {
-	background-color: #420303;
-	height: 30px;
-	width: 100%;
 }
